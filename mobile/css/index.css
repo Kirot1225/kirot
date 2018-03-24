@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+a img {
+  border: none;
+}
+
+html, body {
+  background-size: 100% auto;
+  font-size: 16px;
+  font-family: SimHei , helvetica, arial, sans serif;
+  background: #eee;
+  overflow-x: scroll;
+  position: relative;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+.hd {
+	position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+}
+.logo img {
+    width: 82px;
+    height: 29px;
+    margin-top: 3px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+.bd {
+  width: 100%;
+}
+.goTop {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 999;
+  cursor: pointer;
+}
+.footer {
+  //position: fixed;
+  //z-index: 9;
+  //bottom: 0;
+  //left: 0;
+  height: 46px;
+  width: 100%;
+  background: rgba(0,0,0,.7);
+}
+.ft {
+  line-height: 14px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.buy {
+  position: absolute;
+  top: 4%;
+  left: 36%;
+  color: #fff;
+  width: 120px;
+  height: 30px;
+  background-color: rgb(235, 107, 107);
+  font-size: 14px;
+  outline: none;
+  border: 0;
+  text-decoration: none;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+.one{
+  margin-top: 35px;
+	}
