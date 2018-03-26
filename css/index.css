@@ -278,6 +278,8 @@ img {
 }
 .item-five {
 	height: 993px;
+	width: 1920px;
+	margin: auto;
   	text-align: center;
   	color: #000;
   	background-color: #fff;
